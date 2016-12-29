@@ -1,0 +1,56 @@
+# Site settings
+baseurl = "http://rutgerkroon.nl/"
+languageCode = "en-us"
+title = "Hugrid - Grid Theme For Hugo"
+theme = "hugrid"
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = "UA-XXXXXXXX-Y"
+
+contentdir = "content"
+datadir = "data"
+layoutdir = "layouts"
+publishdir = "public"
+relativeURLs = "true"
+
+[[menu.main]]
+  name = "Home"
+  weight = -110
+  identifier = "home"
+  url = "/"
+[[menu.main]]
+  name = "Websites"
+  weight = -100
+  identifier = "websites"
+  url = "/websites"
+[[menu.main]]
+  name = "Toneel"
+  weight = -90
+  identifier = "toneel"
+  url = "/toneel"
+[[menu.main]]
+  name = "Arendskroon"
+  weight = -80
+  identifier = "arendskroon"
+  url = "/arendskroon"
+[[menu.main]]
+  name = "Over"
+  weight = -70
+  identifier = "over"
+  url = "/over"
+
+[params]
+    # Meta
+    title = "home"
+    subtitle = "Acteur, schrijver, web developer"
+    author = "Rutger Kroon"
+    description = "Hugrid - grid theme for Hugo with an expanding image preview."
+    keywords = "Hugo, Hugo theme, grid theme, portfolio, bookmarks, collection, contacts"
+
+    # Body background color
+	bodybgcolor = "#f9f9f9"
+
+    # Preview container button text
+    buttontext = "Naar de pagina"
+
+    # Footer text
+    footertext = "[![](/images/home_32.png)](/) [![](/images/facebook_32.png)](http://www.facebook.nl) [![](/images/linkedin_32.png)](http://www.linkedin.nl) [![](/images/mail_32.png)](mailto:info@rutgerkroon.nl) [![](/images/git_32.png)](https://github.com/oglikap)"

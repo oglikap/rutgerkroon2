@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Post-rsses on home</title>
+    <link>http://rutgerkroon.nl/post/index.xml</link>
+    <description>Recent content in Post-rsses on home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 28 Dec 2016 16:27:12 +0100</lastBuildDate>
+    <atom:link href="http://rutgerkroon.nl/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>nieuwe website</title>
+      <link>http://rutgerkroon.nl/post/nieuwe-website/</link>
+      <pubDate>Wed, 28 Dec 2016 16:27:12 +0100</pubDate>
+      
+      <guid>http://rutgerkroon.nl/post/nieuwe-website/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

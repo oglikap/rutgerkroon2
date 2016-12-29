@@ -1,0 +1,103 @@
+@import url(http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css);
+@font-face {
+  font-family: 'Stardos Stencil Bold';
+  src: url("/fonts/stardos stencil/StardosStencil-Bold.ttf");
+}
+@font-face {
+  font-family: 'AvenirNextLTPro-Medium';
+  src: url('/fonts/2FDF27_8_0.woff2') format('woff2'), url('/fonts/2FDF27_8_0.woff') format('woff'), url('/fonts/2FDF27_8_0.ttf') format('truetype'), url('/fonts/2FDF27_8_0.eot') format('eot');
+}
+@font-face {
+  font-family: 'Scooter';
+  src: url('/fonts/2FDF27_3D_0.woff2') format('woff2'), url('/fonts/2FDF27_3D_0.woff') format('woff'), url('/fonts/2FDF27_3D_0.ttf') format('truetype'), url('/fonts/2FDF27_3D_0.eot') format('eot');
+}
+@font-face {
+  font-family:'WilliamLucasStd';
+  src: url('/fonts/2FDF27_4A_0.woff2') format('woff2'), url('fonts/2FDF27_4A_0.woff') format('woff'), url('/fonts/2FDF27_4A_0.ttf') format('truetype');
+}
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin transform($transforms) {
+	   -moz-transform: $transforms;
+	     -o-transform: $transforms;
+	    -ms-transform: $transforms;
+	-webkit-transform: $transforms;
+          transform: $transforms;
+}
+@mixin rotate ($deg) {
+  @include transform(rotate(#{$deg}deg));
+}
+
+@import "flex";
+@import "header";
+@import "shortcodes";
+
+body {
+  font-family: 'AvenirNextLTPro-Medium';
+  color: black;
+}
+div#main {
+  max-width: 1100px;
+  margin: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Scooter';
+  font-weight: lighter;
+  color: #777;
+}
+h1 {
+  font-size: 3.5em;
+}
+h2 {
+  font-size: 3em;
+}
+h3 {
+  font-size: 2.75em;
+}
+h4 {
+  font-size: 2.25em;
+}
+h5 {
+  font-size: 1.75em;
+}
+h6 {
+  font-size: 1.25em;
+}
+strong {
+  font-size: 90%;
+}
+ul#og-grid {
+  margin-bottom: 1em;
+}
+footer.footer {
+  margin-top: 4em;
+  background-color: #a50613;
+  min-height: 82px;
+  @include flexbox;
+  @include justify-content(center);
+  @include align-items(center);
+  p {
+    text-align: center;
+    color: white;
+    vertical-align: middle;
+  }
+}
+body.recent footer.footer,
+body.arendskroon footer.footer,
+body.vortibach footer.footer {
+  background-color: #a50613;
+}
+
+@import "content";
+@import "shortcodes";
+@import "home";

@@ -1,0 +1,461 @@
+@import url(http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css);
+@font-face {
+  font-family: 'Stardos Stencil Bold';
+  src: url("/fonts/stardos stencil/StardosStencil-Bold.ttf"); }
+@font-face {
+  font-family: 'AvenirNextLTPro-Medium';
+  src: url("/fonts/2FDF27_8_0.woff2") format("woff2"), url("/fonts/2FDF27_8_0.woff") format("woff"), url("/fonts/2FDF27_8_0.ttf") format("truetype"), url("/fonts/2FDF27_8_0.eot") format("eot"); }
+@font-face {
+  font-family: 'Scooter';
+  src: url("/fonts/2FDF27_3D_0.woff2") format("woff2"), url("/fonts/2FDF27_3D_0.woff") format("woff"), url("/fonts/2FDF27_3D_0.ttf") format("truetype"), url("/fonts/2FDF27_3D_0.eot") format("eot"); }
+@font-face {
+  font-family: 'WilliamLucasStd';
+  src: url("/fonts/2FDF27_4A_0.woff2") format("woff2"), url("fonts/2FDF27_4A_0.woff") format("woff"), url("/fonts/2FDF27_4A_0.ttf") format("truetype"); }
+header.soybomb,
+header.monk,
+header.toneel,
+header.recent,
+header.arendskroon,
+header.vortibach,
+header.rut {
+  background-image: url(/images/soybomb/header-large.jpg);
+  background-repeat: no-repeat;
+  padding-bottom: 10em;
+  background-attachment: fixed; }
+  header.soybomb h1,
+  header.monk h1,
+  header.toneel h1,
+  header.recent h1,
+  header.arendskroon h1,
+  header.vortibach h1,
+  header.rut h1 {
+    color: white; }
+
+header.recent h1,
+header.arendskroon h1,
+header.vortibach h1,
+header.rut h1 {
+  color: black;
+  text-shadow: 2px 2px 1px white; }
+
+header.monk {
+  background-image: url(/images/monk/banner-large.jpg); }
+
+header.toneel {
+  background-image: url(/images/toneel/header-large.jpg); }
+
+header.recent {
+  background-image: url(/images/rook/header-large.jpg);
+  background-size: cover; }
+
+header.arendskroon {
+  background-image: url(/images/arendskroon/header-large.jpg);
+  background-size: contain; }
+
+header.vortibach {
+  background-image: url(/images/vortibach/header-large.jpg); }
+
+header.rut {
+  background-image: url(/images/rutpeet/header-large.jpg); }
+
+.container > header {
+  max-width: 1650px;
+  width: 100%; }
+  .container > header h1 {
+    font-size: 4.5em;
+    text-transform: capitalize;
+    font-weight: lighter;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex; }
+    .container > header h1 span {
+      font-weight: bold;
+      font-size: 1em; }
+
+nav.sidebar-nav {
+  margin: 1em auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  -webkit-justify-content: flex-end;
+  -moz-justify-content: flex-end;
+  justify-content: flex-end; }
+  nav.sidebar-nav a.sidebar-nav-item {
+    color: white;
+    margin-right: 1.5em;
+    padding: 1em;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    border-radius: 5%;
+    font-family: 'Scooter';
+    background-color: #a50613; }
+
+body.recent a.sidebar-nav-item,
+body.arendskroon a.sidebar-nav-item,
+body.vortibach a.sidebar-nav-item {
+  background-color: #a50613; }
+
+h1.page-title {
+  float: right; }
+
+span.dot {
+  color: yellow; }
+
+.header-side-img {
+  border: 3px solid white;
+  width: 100px;
+  height: 100px;
+  float: left; }
+
+/************************************************
+MEDIA QUERIES */
+@media screen and (max-width: 600px) {
+  header.arendskroon,
+  header.vortibach,
+  header.toneel,
+  header.soybomb,
+  header.monk,
+  header.rut {
+    background-image: url(/images/arendskroon/header-small.jpg);
+    background-position: top;
+    background-size: inherit;
+    padding-bottom: 5em; }
+
+  header.vortibach {
+    background-image: url(/images/vortibach/header-small.jpg); }
+
+  header.toneel {
+    background-image: url(/images/toneel/header-small.jpg); }
+
+  header.soybomb {
+    background-image: url(/images/soybomb/header-small.jpg); }
+
+  header.monk {
+    background-image: url(/images/monk/header-small.jpg); }
+
+  header.rut {
+    background-image: url(/images/rutpeet/header-small.jpg); }
+
+  nav.sidebar-nav a.sidebar-nav-item {
+    font-size: 0.875em;
+    margin-right: 0.25em;
+    padding: 0.5em; }
+
+  .container > header h1 {
+    font-size: 3em; }
+
+  .header-side-img {
+    width: 75px;
+    height: 75px; } }
+ul.arendskroon-pages,
+ul.toneel-pages {
+  list-style-type: none; }
+  ul.arendskroon-pages li,
+  ul.toneel-pages li {
+    display: inline-block;
+    position: relative;
+    width: 30%;
+    padding: 1em;
+    margin: 0 auto;
+    text-align: center; }
+    ul.arendskroon-pages li section.headtext,
+    ul.toneel-pages li section.headtext {
+      font-family: 'Stardos Stencil Bold';
+      background-color: black;
+      color: white;
+      padding: 0 0.25em;
+      font-size: 1.25em;
+      -moz-transform: rotate(-2deg);
+      -o-transform: rotate(-2deg);
+      -ms-transform: rotate(-2deg);
+      -webkit-transform: rotate(-2deg);
+      transform: rotate(-2deg);
+      border: 2px solid white; }
+    ul.arendskroon-pages li a,
+    ul.toneel-pages li a {
+      text-decoration: none;
+      color: black;
+      border: 1px solid #777;
+      padding: 0.25em;
+      -webkit-border-radius: 2%;
+      -moz-border-radius: 2%;
+      -ms-border-radius: 2%;
+      border-radius: 2%; }
+    ul.arendskroon-pages li a:hover,
+    ul.toneel-pages li a:hover {
+      color: #777; }
+
+.article ul > li:before {
+  content: none; }
+
+section.content-area1,
+section.content-area3 {
+  float: left;
+  width: 60%; }
+  section.content-area1 p,
+  section.content-area3 p {
+    font-size: 1em;
+    padding: 1.075em; }
+
+section.content-area3 {
+  clear: both;
+  float: right; }
+
+figure.content-area4 {
+  float: left; }
+
+.content-header-soybomb {
+  color: #cb542a; }
+
+body {
+  font-family: 'AvenirNextLTPro-Medium';
+  color: black; }
+
+div#main {
+  max-width: 1100px;
+  margin: auto; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Scooter';
+  font-weight: lighter;
+  color: #777; }
+
+h1 {
+  font-size: 3.5em; }
+
+h2 {
+  font-size: 3em; }
+
+h3 {
+  font-size: 2.75em; }
+
+h4 {
+  font-size: 2.25em; }
+
+h5 {
+  font-size: 1.75em; }
+
+h6 {
+  font-size: 1.25em; }
+
+strong {
+  font-size: 90%; }
+
+ul#og-grid {
+  margin-bottom: 1em; }
+
+footer.footer {
+  margin-top: 4em;
+  background-color: #a50613;
+  min-height: 82px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center; }
+  footer.footer p {
+    text-align: center;
+    color: white;
+    vertical-align: middle; }
+
+body.recent footer.footer,
+body.arendskroon footer.footer,
+body.vortibach footer.footer {
+  background-color: #a50613; }
+
+.content-area1 {
+  float: left;
+  margin-top: 1.5em; }
+
+.content-area2 {
+  width: 35%;
+  float: right;
+  margin-top: 3.5em; }
+
+article#content {
+  margin: 1em auto; }
+  article#content p,
+  article#content h5 {
+    width: 75%;
+    margin: auto; }
+  article#content h5 {
+    color: #a50613; }
+  article#content .og-details p {
+    width: 100%; }
+
+body.recent article#content h5 {
+  color: #a50613; }
+
+figcaption {
+  background-color: black;
+  color: white;
+  padding: 0 0.25em;
+  -moz-transform: rotate(-2deg);
+  -o-transform: rotate(-2deg);
+  -ms-transform: rotate(-2deg);
+  -webkit-transform: rotate(-2deg);
+  transform: rotate(-2deg);
+  margin-top: -1em; }
+
+.og-grid li {
+  margin-top: 2em; }
+
+section.caption {
+  padding: 0.25em 0;
+  font-size: 80%;
+  margin: 0.75em auto;
+  width: 75%;
+  border: 1px solid lightgrey;
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;
+  -ms-border-radius: 5%;
+  border-radius: 5%; }
+
+body.soybomb .og-details a,
+body.monk .og-details a {
+  display: none; }
+body.soybomb .og-details p,
+body.monk .og-details p {
+  background: white;
+  color: #555;
+  margin: 0.25em 0;
+  padding: 0.25em 1em;
+  width: 100%; }
+body.soybomb .og-details h3,
+body.monk .og-details h3 {
+  font-size: 1.25em;
+  background: white;
+  color: #cb542a;
+  padding: 0 1em;
+  text-align: center;
+  width: 75%; }
+
+.og-grid li {
+  margin-bottom: 1em; }
+
+/*****************************************
+***********MEDIA QUERIES*/
+@media screen and (max-width: 600px) {
+  article#content p,
+  article#content h5 {
+    width: 95%; }
+
+  .og-grid li {
+    margin-top: 0;
+    margin-bottom: 3em; } }
+ul.arendskroon-pages,
+ul.toneel-pages {
+  list-style-type: none; }
+  ul.arendskroon-pages li,
+  ul.toneel-pages li {
+    display: inline-block;
+    position: relative;
+    width: 30%;
+    padding: 1em;
+    margin: 0 auto;
+    text-align: center; }
+    ul.arendskroon-pages li section.headtext,
+    ul.toneel-pages li section.headtext {
+      font-family: 'Stardos Stencil Bold';
+      background-color: black;
+      color: white;
+      padding: 0 0.25em;
+      font-size: 1.25em;
+      -moz-transform: rotate(-2deg);
+      -o-transform: rotate(-2deg);
+      -ms-transform: rotate(-2deg);
+      -webkit-transform: rotate(-2deg);
+      transform: rotate(-2deg);
+      border: 2px solid white; }
+    ul.arendskroon-pages li a,
+    ul.toneel-pages li a {
+      text-decoration: none;
+      color: black;
+      border: 1px solid #777;
+      padding: 0.25em;
+      -webkit-border-radius: 2%;
+      -moz-border-radius: 2%;
+      -ms-border-radius: 2%;
+      border-radius: 2%; }
+    ul.arendskroon-pages li a:hover,
+    ul.toneel-pages li a:hover {
+      color: #777; }
+
+.article ul > li:before {
+  content: none; }
+
+section.content-area1,
+section.content-area3 {
+  float: left;
+  width: 60%; }
+  section.content-area1 p,
+  section.content-area3 p {
+    font-size: 1em;
+    padding: 1.075em; }
+
+section.content-area3 {
+  clear: both;
+  float: right; }
+
+figure.content-area4 {
+  float: left; }
+
+.content-header-soybomb {
+  color: #cb542a; }
+
+/*h1.page-title-home {
+//  font-family: 'WilliamLucasStd';
+  margin: 1.5em auto;
+  text-align: center;
+//  border: 3px solid;
+  width: 75%;
+  background-color: red;
+  color: white;
+  @include transform(rotate(2deg));
+}
+body.home .og-grid li {
+//  width: 300px;
+//  margin: 1em auto;
+  div#main {
+    max-width: 960px;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1.page-title-home {
+    font-size: 2.5em;
+  }
+  body.home .og-grid li {
+    width: 200px;
+    height: 300px;
+    overflow: hidden;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+}
+*/
+
+/*# sourceMappingURL=style.css.map */

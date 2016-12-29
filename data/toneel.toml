@@ -1,0 +1,21 @@
+[[items]]
+title = "Recent"
+image = "/images/full/recent.jpg"
+thumb = "/images/thumbs/recent.jpg"
+alt = "Recent. 2013 tot heden"
+description = "Krankzinnig, naakt, bezopen, hardleers en doorrookt, dat zijn de kernwoorden!"
+url = "/recent"
+[[items]]
+title = "SoyBomb"
+image = "/images/full/soybomb.jpg"
+thumb = "/images/thumbs/soybomb.jpg"
+alt = "SoyBomb"
+description = "Van 2009 tot en met 2012 presenteerden wij SoyBomb, een project over trash en tegencultuur."
+url = "/soybomb"
+[[items]]
+title = "Monk"
+image = "/images/full/paradise.jpg"
+thumb = "/images/thumbs/paradise.jpg"
+alt = "Monk, 1998 - 2008"
+description = "Monk is niet dood. Bij vlagen nu al legendarisch!"
+url = "/monk"
