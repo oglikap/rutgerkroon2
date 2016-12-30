@@ -1,0 +1,89 @@
+.content-area1 {
+  float: left;
+  margin-top: 1.5em;
+}
+.content-area2 {
+  width: 35%;
+  float: right;
+  margin-top: 3.5em;
+}
+article#content {
+  margin: 1em auto;
+  p,
+  h5 {
+    width: 75%;
+    margin: auto;
+  }
+  h5 {
+    color: #a50613;
+  }
+  .og-details p {
+    width: 100%;
+  }
+}
+body.recent article#content h5 {
+  color: #a50613;
+}
+figcaption {
+  background-color: black;
+  color: white;
+  padding: 0 0.25em;
+  @include transform(rotate(-2deg));
+  margin-top: -1em;
+}
+.og-grid li {
+  margin-top: 2em;
+}
+.og-grid li > a,
+.og-grid li > a img {
+//  font-size: 80%;
+}
+section.caption {
+//  background-color: black;
+//  color: white;
+  padding: 0.25em 0;
+  font-size: 80%;
+  margin: 0.75em auto;
+  width: 75%;
+//  @include transform(rotate(-1deg));
+  border: 1px solid lightgrey;
+  @include border-radius(5%);
+}
+body.soybomb .og-details,
+body.monk .og-details {
+  a {
+    display: none;
+  }
+  p {
+    background: white;
+    color: #555;
+    margin: 0.25em 0;
+    padding: 0.25em 1em;
+    width: 100%;
+  }
+  h3 {
+    font-size: 1.25em;
+    background: white;
+    color: #cb542a;
+    padding: 0 1em;
+    text-align: center;
+    width: 75%;
+  }
+}
+.og-grid li {
+  margin-bottom: 1em;
+}
+
+/*****************************************
+***********MEDIA QUERIES*/
+
+@media screen and (max-width: 600px) {
+  article#content p,
+  article#content h5 {
+    width: 95%;
+  }
+  .og-grid li {
+    margin-top: 0;
+    margin-bottom: 3em;
+  }
+}

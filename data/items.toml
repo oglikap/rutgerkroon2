@@ -1,0 +1,29 @@
+[[items]]
+title = "Websites"
+image = "images/full/avdk.jpg"
+thumb = "images/thumbs/avdk.jpg"
+alt = "Websites"
+description = "Als website-bouwer wil ik precies, flexibel en op maat werken; de ene site is tenslotte de ander niet. Een site met veel data-uitwisseling bouw ik op Wordpress, maar meestal volstaat een simpeler, sneller en veiliger oplossing. Een eenvoudige site heb je al voor een paar honderd euro. Je krijgt dan een snelle, gedeeltelijk zelf aan te passen website die vanzelfsprekend schaalt naar alle formaten (‘responsive design’)."
+url = "/websites"
+[[items]]
+title = "Toneel"
+image = "images/full/rookmono.jpg"
+thumb = "images/thumbs/rookmono.jpg"
+alt = "Toneel"
+description = "A simple grid theme for Hugo. A kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on."
+url = "/toneel"
+#{{< relref "toneel.md" >}}
+[[items]]
+title = "Arendskroon"
+image = "images/full/rutenpeet.jpg"
+thumb = "images/thumbs/rutenpeet.jpg"
+alt = "Arendskroon"
+description = "A simple grid theme for Hugo. A kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on."
+url = "https://github.com/aerohub/hugrid"
+[[items]]
+title = "Over"
+image = "images/full/4.png"
+thumb = "images/thumbs/4.png"
+alt = "Hugrid Theme"
+description = "A simple grid theme for Hugo. A kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on."
+url = "https://github.com/aerohub/hugrid"

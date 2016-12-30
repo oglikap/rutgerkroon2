@@ -1,0 +1,14 @@
+[[items]]
+title = "Alles voor de Kunsten"
+image = "/images/full/avdk.jpg"
+thumb = "/images/thumbs/avdk.jpg"
+alt = "Alles voor de Kunsten"
+description = "Mijn meest recente opdracht. Geïnstalleerd op Wordpress en op maat gemaakt met een child theme en veel CSS, een beetje PHP en een paar plug-ins."
+url = "http://allesvoordekunsten.nl"
+[[items]]
+title = "Stichting HOMSK"
+image = "/images/full/homsk.jpg"
+thumb = "/images/thumbs/homsk.jpg"
+alt = "Stichting HOMSK"
+description = "Zonder systeem gebouwd. Vanaf nul en geheel 'statisch'. De bedoeling is deze site in de nabije toekomst op Wordpress of een statisch CMS over te brengen."
+url = "http://homsk.nl"

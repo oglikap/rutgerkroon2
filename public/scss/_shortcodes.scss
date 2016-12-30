@@ -1,0 +1,53 @@
+ul.arendskroon-pages,
+ul.toneel-pages {
+  list-style-type: none;
+  li {
+    display: inline-block;
+    position: relative;
+    width: 30%;
+    padding: 1em;
+    margin: 0 auto;
+    text-align: center;
+    section.headtext {
+      font-family: 'Stardos Stencil Bold';
+      background-color: black;
+      color: white;
+      padding: 0 0.25em;
+      font-size: 1.25em;
+      @include transform(rotate(-2deg));
+      border: 2px solid white;
+    }
+    a {
+      text-decoration: none;
+      color: black;
+      border: 1px solid #777;
+      padding: 0.25em;
+      @include border-radius(2%);
+    }
+    a:hover {
+      color: #777;
+    }
+  }
+}
+.article ul > li:before {
+  content: none;
+}
+section.content-area1,
+section.content-area3 {
+  float: left;
+  width: 60%;
+  p {
+    font-size: 1em;
+    padding: 1.075em;
+  }
+}
+section.content-area3 {
+  clear: both;
+  float: right;
+}
+figure.content-area4 {
+  float: left;
+}
+.content-header-soybomb {
+  color: #cb542a;
+}
