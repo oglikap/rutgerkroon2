@@ -19,6 +19,7 @@
 		<link rel="stylesheet" type="text/css" href="http://rutgerkroon.nl/css/default.css" />
 		<link rel="stylesheet" type="text/css" href="http://rutgerkroon.nl/css/component.css" />
 		<link rel="stylesheet" type="text/css" href="http://rutgerkroon.nl/css/style.css" />
+		<script src="http://rutgerkroon.nl/js/responsive-nav.js"></script>
 		<script src="http://rutgerkroon.nl/js/modernizr.custom.js"></script>
 
 	
@@ -35,32 +36,57 @@ ga('send', 'pageview');
 	</head>
 	<body class="home">
 		<div class="container">
-			<nav class="sidebar-nav">
-      
-      
-      <a class="sidebar-nav-item active" href="./">Home</a>
-      
-      <a class="sidebar-nav-item" href="./websites">Websites</a>
-      
-      <a class="sidebar-nav-item" href="./toneel">Toneel</a>
-      
-      <a class="sidebar-nav-item" href="./arendskroon">Arendskroon</a>
-      
-      <a class="sidebar-nav-item" href="./over">Over</a>
-      
-  </nav>
+			<div class="navi">
+  <section class="home-icon">
+    <a href="./"><img src="./images/home_32.png" alt="" /></a>
+  </section>
+  <div class="navi-small">
+    <nav class="nav-collapse">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="navi-medium-up">
+    <nav class="menu">
+      <ul class="clearfix">
+        <li><a href="./websites">Websites</a></li>
+        <li><a href="./toneel">Toneel <span class="arrow">&#9660;</span></a>
+          <ul class="sub-menu">
+            <li><a href="./recent">Recent</a></li>
+            <li><a href="./soybomb">SoyBomb</a></li>
+            <li><a href="./monk">Monk</a></li>
+          </ul>
+        </li>
+        <li><a href="./arendskroon">Arendskroon <span class="arrow">&#9660;</span></a>
+          <ul class="sub-menu">
+            <li><a href="./rut-en-peet">Rut &amp; Peet</a></li>
+            <li><a href="./vortibach">Vortibach</a></li>
+            <li><a href="./kbouters">K-bouters</a></li>
+          </ul>
+        </li>
+        <li><a href="./over">Over</a></li>
+      </ul>
+    </nav>
+  </div>
+
+</div>
 
 			<header class="clearfix home">
 	<h1 class="page-title">home<span class="dot">.</span></h1>
 
-	<img src="./images/thumbs/home.jpg" alt="" class="header-side-img" />
+	<img src="./images/thumbs/home.jpg" alt="" class="header-side-img" />	
 </header>
 
 			<div class="main">
 				<ul id="og-grid" class="og-grid">
 					
 					<li>
-						<a href="./websites" data-largesrc="images/full/avdk.jpg" data-title="Websites" data-description="A simple grid theme for Hugo. A kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on.">
+						<a href="./websites" data-largesrc="images/full/avdk.jpg" data-title="Websites" data-description="Als website-bouwer wil ik precies, flexibel en op maat werken; de ene site is tenslotte de ander niet. Een site met veel data-uitwisseling bouw ik op Wordpress, maar meestal volstaat een simpeler, sneller en veiliger oplossing. Een eenvoudige site heb je al voor een paar honderd euro. Je krijgt dan een snelle, gedeeltelijk zelf aan te passen website die vanzelfsprekend schaalt naar alle formaten (‘responsive design’).">
 							<img src="images/thumbs/avdk.jpg" alt="Websites"/>
 							<section class="caption">Websites</section>
 						</a>
@@ -244,7 +270,7 @@ ga('send', 'pageview');
 					};
 
 				function init( config ) {
-					
+
 					settings = $.extend( true, {}, settings, config );
 
 					$grid.imagesLoaded( function() {
@@ -284,11 +310,11 @@ ga('send', 'pageview');
 				}
 
 				function initEvents() {
-					
+
 					initItemsEvents( $items );
-					
+
 					$window.on( 'debouncedresize', function() {
-						
+
 						scrollExtra = 0;
 						previewPos = -1;
 						saveItemInfo();
@@ -338,7 +364,7 @@ ga('send', 'pageview');
 							preview.update( $item );
 							return false;
 						}
-						
+
 					}
 
 					previewPos = position;
@@ -382,7 +408,7 @@ ga('send', 'pageview');
 						if( $item ) {
 							this.$item = $item;
 						}
-						
+
 						if( current !== -1 ) {
 							var $currentItem = $items.eq( current );
 							$currentItem.removeClass( 'og-expanded' );
@@ -405,7 +431,7 @@ ga('send', 'pageview');
 						this.$href.attr( 'href', eldata.href );
 
 						var self = this;
-						
+
 						if( typeof self.$largeImg != 'undefined' ) {
 							self.$largeImg.remove();
 						}
@@ -420,13 +446,13 @@ ga('send', 'pageview');
 									self.$largeImg = $img.fadeIn( 350 );
 									self.$fullimage.append( self.$largeImg );
 								}
-							} ).attr( 'src', eldata.largesrc );	
+							} ).attr( 'src', eldata.largesrc );
 						}
 
 					},
 					open : function() {
 
-						setTimeout( $.proxy( function() {	
+						setTimeout( $.proxy( function() {
 							this.setHeights();
 							this.positionPreview();
 						}, this ), 25 );
@@ -457,7 +483,7 @@ ga('send', 'pageview');
 							}
 
 						}, this ), 25 );
-						
+
 						return false;
 
 					},
@@ -499,7 +525,7 @@ ga('send', 'pageview');
 						var position = this.$item.data( 'offsetTop' ),
 							previewOffsetT = this.$previewEl.offset().top - scrollExtra,
 							scrollVal = this.height + this.$item.data( 'height' ) + marginExpanded <= winsize.height ? position : this.height < winsize.height ? previewOffsetT - ( winsize.height - this.height ) : previewOffsetT;
-						
+
 						$body.animate( { scrollTop : scrollVal }, settings.speed );
 
 					},
@@ -512,7 +538,7 @@ ga('send', 'pageview');
 					}
 				}
 
-				return { 
+				return {
 					init : init,
 					addItems : addItems
 				};
@@ -524,5 +550,7 @@ ga('send', 'pageview');
 				Grid.init();
 			});
 		</script>
+		
+
 	</body>
 </html>

@@ -19,6 +19,7 @@
 		<link rel="stylesheet" type="text/css" href="http://rutgerkroon.nl/css/default.css" />
 		<link rel="stylesheet" type="text/css" href="http://rutgerkroon.nl/css/component.css" />
 		<link rel="stylesheet" type="text/css" href="http://rutgerkroon.nl/css/style.css" />
+		<script src="http://rutgerkroon.nl/js/responsive-nav.js"></script>
 		<script src="http://rutgerkroon.nl/js/modernizr.custom.js"></script>
 
 	
@@ -35,25 +36,50 @@ ga('send', 'pageview');
 	</head>
 	<body class="vortibach">
     <div class="container">
-      <nav class="sidebar-nav">
-      
-      
-      <a class="sidebar-nav-item" href="../">Home</a>
-      
-      <a class="sidebar-nav-item" href="../websites">Websites</a>
-      
-      <a class="sidebar-nav-item" href="../toneel">Toneel</a>
-      
-      <a class="sidebar-nav-item" href="../arendskroon">Arendskroon</a>
-      
-      <a class="sidebar-nav-item" href="../over">Over</a>
-      
-  </nav>
+      <div class="navi">
+  <section class="home-icon">
+    <a href="../"><img src="../images/home_32.png" alt="" /></a>
+  </section>
+  <div class="navi-small">
+    <nav class="nav-collapse">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="navi-medium-up">
+    <nav class="menu">
+      <ul class="clearfix">
+        <li><a href="../websites">Websites</a></li>
+        <li><a href="../toneel">Toneel <span class="arrow">&#9660;</span></a>
+          <ul class="sub-menu">
+            <li><a href="../recent">Recent</a></li>
+            <li><a href="../soybomb">SoyBomb</a></li>
+            <li><a href="../monk">Monk</a></li>
+          </ul>
+        </li>
+        <li><a href="../arendskroon">Arendskroon <span class="arrow">&#9660;</span></a>
+          <ul class="sub-menu">
+            <li><a href="../rut-en-peet">Rut &amp; Peet</a></li>
+            <li><a href="../vortibach">Vortibach</a></li>
+            <li><a href="../kbouters">K-bouters</a></li>
+          </ul>
+        </li>
+        <li><a href="../over">Over</a></li>
+      </ul>
+    </nav>
+  </div>
+
+</div>
 
       <header class="clearfix vortibach">
 	<h1 class="page-title">vortibach<span class="dot">.</span></h1>
 
-	<img src="../images/thumbs/vortibach.jpg" alt="" class="header-side-img" />
+	<img src="../images/thumbs/vortibach.jpg" alt="" class="header-side-img" />	
 </header>
 
       <div id="main">
@@ -218,7 +244,7 @@ In een hallucinante &lsquo;nieuwe&rsquo; wereld, geregeerd door verzekeringsmaat
 					};
 
 				function init( config ) {
-					
+
 					settings = $.extend( true, {}, settings, config );
 
 					$grid.imagesLoaded( function() {
@@ -258,11 +284,11 @@ In een hallucinante &lsquo;nieuwe&rsquo; wereld, geregeerd door verzekeringsmaat
 				}
 
 				function initEvents() {
-					
+
 					initItemsEvents( $items );
-					
+
 					$window.on( 'debouncedresize', function() {
-						
+
 						scrollExtra = 0;
 						previewPos = -1;
 						saveItemInfo();
@@ -312,7 +338,7 @@ In een hallucinante &lsquo;nieuwe&rsquo; wereld, geregeerd door verzekeringsmaat
 							preview.update( $item );
 							return false;
 						}
-						
+
 					}
 
 					previewPos = position;
@@ -356,7 +382,7 @@ In een hallucinante &lsquo;nieuwe&rsquo; wereld, geregeerd door verzekeringsmaat
 						if( $item ) {
 							this.$item = $item;
 						}
-						
+
 						if( current !== -1 ) {
 							var $currentItem = $items.eq( current );
 							$currentItem.removeClass( 'og-expanded' );
@@ -379,7 +405,7 @@ In een hallucinante &lsquo;nieuwe&rsquo; wereld, geregeerd door verzekeringsmaat
 						this.$href.attr( 'href', eldata.href );
 
 						var self = this;
-						
+
 						if( typeof self.$largeImg != 'undefined' ) {
 							self.$largeImg.remove();
 						}
@@ -394,13 +420,13 @@ In een hallucinante &lsquo;nieuwe&rsquo; wereld, geregeerd door verzekeringsmaat
 									self.$largeImg = $img.fadeIn( 350 );
 									self.$fullimage.append( self.$largeImg );
 								}
-							} ).attr( 'src', eldata.largesrc );	
+							} ).attr( 'src', eldata.largesrc );
 						}
 
 					},
 					open : function() {
 
-						setTimeout( $.proxy( function() {	
+						setTimeout( $.proxy( function() {
 							this.setHeights();
 							this.positionPreview();
 						}, this ), 25 );
@@ -431,7 +457,7 @@ In een hallucinante &lsquo;nieuwe&rsquo; wereld, geregeerd door verzekeringsmaat
 							}
 
 						}, this ), 25 );
-						
+
 						return false;
 
 					},
@@ -473,7 +499,7 @@ In een hallucinante &lsquo;nieuwe&rsquo; wereld, geregeerd door verzekeringsmaat
 						var position = this.$item.data( 'offsetTop' ),
 							previewOffsetT = this.$previewEl.offset().top - scrollExtra,
 							scrollVal = this.height + this.$item.data( 'height' ) + marginExpanded <= winsize.height ? position : this.height < winsize.height ? previewOffsetT - ( winsize.height - this.height ) : previewOffsetT;
-						
+
 						$body.animate( { scrollTop : scrollVal }, settings.speed );
 
 					},
@@ -486,7 +512,7 @@ In een hallucinante &lsquo;nieuwe&rsquo; wereld, geregeerd door verzekeringsmaat
 					}
 				}
 
-				return { 
+				return {
 					init : init,
 					addItems : addItems
 				};
@@ -498,4 +524,9 @@ In een hallucinante &lsquo;nieuwe&rsquo; wereld, geregeerd door verzekeringsmaat
 				Grid.init();
 			});
 		</script>
+		
+
+		<script>
+  var nav = responsiveNav(".nav-collapse", {label: "<img src='../images/layout4_32.png' />"});
+</script>
   </body>

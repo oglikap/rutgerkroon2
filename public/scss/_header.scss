@@ -4,7 +4,8 @@ header.toneel,
 header.recent,
 header.arendskroon,
 header.vortibach,
-header.rut {
+header.rut,
+header.websites {
   background-image: url(/images/soybomb/header-large.jpg);
   background-repeat: no-repeat;
   padding-bottom: 10em;
@@ -15,25 +16,21 @@ header.rut {
   color: white;
   }
 }
-header.recent h1,
 header.arendskroon h1,
 header.vortibach h1,
-header.rut h1 {
+header.rut h1,
+header.websites h1 {
   color: black;
   text-shadow: 2px 2px 1px white;
 }
 header.monk {
   background-image: url(/images/monk/banner-large.jpg);
-//  background-position: center;
 }
 header.toneel {
   background-image: url(/images/toneel/header-large.jpg);
-//  background-position: center;
 }
 header.recent {
   background-image: url(/images/rook/header-large.jpg);
-//  background-position: center;
-  background-size: cover;
 }
 header.arendskroon {
   background-image: url(/images/arendskroon/header-large.jpg);
@@ -45,6 +42,9 @@ header.vortibach {
 }
 header.rut {
   background-image: url(/images/rutpeet/header-large.jpg);
+}
+header.websites {
+  background-image: url(/images/websites/header-large.jpg);
 }
 .container > header {
   max-width: 1650px;
@@ -59,6 +59,9 @@ header.rut {
       font-size: 1em;
     }
   }
+}
+.small {
+  display: none;
 }
 nav.sidebar-nav {
   margin: 1em auto;
@@ -102,7 +105,8 @@ MEDIA QUERIES */
   header.toneel,
   header.soybomb,
   header.monk,
-  header.rut {
+  header.rut,
+  header.websites {
     background-image: url(/images/arendskroon/header-small.jpg);
     background-position: top;
     background-size: inherit;
@@ -122,6 +126,15 @@ MEDIA QUERIES */
   }
   header.rut {
     background-image: url(/images/rutpeet/header-small.jpg);
+  }
+  header.websites {
+    background-image: url(/images/websites/header-small.jpg);
+  }
+  .small {
+    display: block;
+  }
+  .large {
+    display: none;
   }
   nav.sidebar-nav {
 //      font-size: 1em;

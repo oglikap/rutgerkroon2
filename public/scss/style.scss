@@ -34,8 +34,10 @@
 }
 
 @import "flex";
+@import "navi";
 @import "header";
 @import "shortcodes";
+@import "responsive-nav";
 
 body {
   font-family: 'AvenirNextLTPro-Medium';

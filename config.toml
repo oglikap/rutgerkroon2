@@ -12,31 +12,31 @@ layoutdir = "layouts"
 publishdir = "public"
 relativeURLs = "true"
 
-[[menu.main]]
-  name = "Home"
-  weight = -110
-  identifier = "home"
-  url = "/"
-[[menu.main]]
-  name = "Websites"
-  weight = -100
-  identifier = "websites"
-  url = "/websites"
-[[menu.main]]
-  name = "Toneel"
-  weight = -90
-  identifier = "toneel"
-  url = "/toneel"
-[[menu.main]]
-  name = "Arendskroon"
-  weight = -80
-  identifier = "arendskroon"
-  url = "/arendskroon"
-[[menu.main]]
-  name = "Over"
-  weight = -70
-  identifier = "over"
-  url = "/over"
+##[[menu.main]]
+##  name = "Home"
+##  weight = -110
+##  identifier = "home"
+##  url = "/"
+##[[menu.main]]
+##  name = "Websites"
+##  weight = -100
+##  identifier = "websites"
+##  url = "/websites"
+##[[menu.main]]
+##  name = "Toneel"
+##  weight = -90
+##  identifier = "toneel"
+##  url = "/toneel"
+##[[menu.main]]
+##  name = "Arendskroon"
+##  weight = -80
+##  identifier = "arendskroon"
+##  url = "/arendskroon"
+##[[menu.main]]
+##  name = "Over"
+##  weight = -70
+##  identifier = "over"
+##  url = "/over"
 
 [params]
     # Meta

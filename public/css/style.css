@@ -11,13 +11,71 @@
 @font-face {
   font-family: 'WilliamLucasStd';
   src: url("/fonts/2FDF27_4A_0.woff2") format("woff2"), url("fonts/2FDF27_4A_0.woff") format("woff"), url("/fonts/2FDF27_4A_0.ttf") format("truetype"); }
+.clearfix:after {
+  display: block;
+  clear: both; }
+
+div.navi {
+  height: 3em; }
+
+section.home-icon {
+  float: right;
+  margin-right: 1em;
+  background: #a50613; }
+
+div.navi-small {
+  display: none; }
+
+div.navi-medium-up nav.menu {
+  width: 960px;
+  margin: .75em 0 0; }
+  div.navi-medium-up nav.menu li {
+    list-style: none; }
+    div.navi-medium-up nav.menu li a {
+      transition: all linear 0.15s;
+      background: #a50613;
+      color: white;
+      padding: .25em .5em;
+      font-size: 1.125em; }
+      div.navi-medium-up nav.menu li a span.arrow {
+        font-size: .5em;
+        line-height: 0%; }
+    div.navi-medium-up nav.menu li ul.sub-menu {
+      width: 160%;
+      position: absolute;
+      top: 100%;
+      left: 0px;
+      z-index: -1;
+      opacity: 0;
+      transition: opacity linear 0.15s;
+      background: white; }
+      div.navi-medium-up nav.menu li ul.sub-menu li {
+        margin: 0.25em 0; }
+  div.navi-medium-up nav.menu li:hover .sub-menu {
+    z-index: 1;
+    opacity: 1; }
+  div.navi-medium-up nav.menu > ul > li {
+    float: left;
+    position: relative;
+    display: inline-block;
+    margin-left: 1em; }
+    div.navi-medium-up nav.menu > ul > li > a {
+      display: inline-block; }
+
+@media screen and (max-width: 600px) {
+  div.navi-small {
+    display: block; }
+
+  div.navi-medium-up {
+    display: none; } }
 header.soybomb,
 header.monk,
 header.toneel,
 header.recent,
 header.arendskroon,
 header.vortibach,
-header.rut {
+header.rut,
+header.websites {
   background-image: url(/images/soybomb/header-large.jpg);
   background-repeat: no-repeat;
   padding-bottom: 10em;
@@ -28,13 +86,14 @@ header.rut {
   header.recent h1,
   header.arendskroon h1,
   header.vortibach h1,
-  header.rut h1 {
+  header.rut h1,
+  header.websites h1 {
     color: white; }
 
-header.recent h1,
 header.arendskroon h1,
 header.vortibach h1,
-header.rut h1 {
+header.rut h1,
+header.websites h1 {
   color: black;
   text-shadow: 2px 2px 1px white; }
 
@@ -45,8 +104,7 @@ header.toneel {
   background-image: url(/images/toneel/header-large.jpg); }
 
 header.recent {
-  background-image: url(/images/rook/header-large.jpg);
-  background-size: cover; }
+  background-image: url(/images/rook/header-large.jpg); }
 
 header.arendskroon {
   background-image: url(/images/arendskroon/header-large.jpg);
@@ -57,6 +115,9 @@ header.vortibach {
 
 header.rut {
   background-image: url(/images/rutpeet/header-large.jpg); }
+
+header.websites {
+  background-image: url(/images/websites/header-large.jpg); }
 
 .container > header {
   max-width: 1650px;
@@ -73,6 +134,9 @@ header.rut {
     .container > header h1 span {
       font-weight: bold;
       font-size: 1em; }
+
+.small {
+  display: none; }
 
 nav.sidebar-nav {
   margin: 1em auto;
@@ -122,7 +186,8 @@ MEDIA QUERIES */
   header.toneel,
   header.soybomb,
   header.monk,
-  header.rut {
+  header.rut,
+  header.websites {
     background-image: url(/images/arendskroon/header-small.jpg);
     background-position: top;
     background-size: inherit;
@@ -142,6 +207,15 @@ MEDIA QUERIES */
 
   header.rut {
     background-image: url(/images/rutpeet/header-small.jpg); }
+
+  header.websites {
+    background-image: url(/images/websites/header-small.jpg); }
+
+  .small {
+    display: block; }
+
+  .large {
+    display: none; }
 
   nav.sidebar-nav a.sidebar-nav-item {
     font-size: 0.875em;
@@ -214,6 +288,47 @@ figure.content-area4 {
 .content-header-soybomb {
   color: #cb542a; }
 
+/*! responsive-nav.js 1.0.39 by @viljamis */
+.nav-collapse ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: block;
+  list-style: none; }
+
+.nav-collapse li {
+  width: 100%;
+  display: block; }
+
+.js .nav-collapse {
+  clip: rect(0 0 0 0);
+  max-height: 0;
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  zoom: 1; }
+
+.nav-collapse.opened {
+  max-height: 9999px; }
+
+.nav-toggle {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none; }
+
+@media screen and (min-width: 601px) {
+  .js .nav-collapse {
+    position: relative; }
+
+  .js .nav-collapse.closed {
+    max-height: none; }
+
+  .nav-toggle {
+    display: none; } }
 body {
   font-family: 'AvenirNextLTPro-Medium';
   color: black; }
