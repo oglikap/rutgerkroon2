@@ -6,8 +6,17 @@
     <description>Recent content in Post-rsses on home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Dec 2016 16:27:12 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 09 Jan 2017 16:04:37 +0100</lastBuildDate>
     <atom:link href="http://rutgerkroon.nl/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>postzegels</title>
+      <link>http://rutgerkroon.nl/post/postzegel/</link>
+      <pubDate>Mon, 09 Jan 2017 16:04:37 +0100</pubDate>
+      
+      <guid>http://rutgerkroon.nl/post/postzegel/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>nieuwe website</title>
@@ -16,6 +25,29 @@
       
       <guid>http://rutgerkroon.nl/post/nieuwe-website/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://rutgerkroon.nl/post/post/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://rutgerkroon.nl/post/post/</guid>
+      <description>partial &#34;header.html&#34; . }}
+
+&lt;section id=&#34;main&#34;&gt;
+  &lt;div&gt;
+   &lt;h1 id=&#34;title&#34;&gt;{{ .Title }}&lt;/h1&gt;
+        &lt;ul id=&#34;list&#34;&gt;
+            {{ range .Data.Pages }}
+                {{ .Render &#34;li&#34;}}
+            {{ end }}
+        &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+
+{{ partial &#34;footer.html&#34; . }}
+</description>
     </item>
     
   </channel>

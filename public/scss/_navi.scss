@@ -3,18 +3,21 @@
   clear: both;
 }
 div.navi {
-  height: 3em;
+//  height: 3em;
 }
 section.home-icon {
   float: right;
-  margin-right: 1em;
+  margin-right: 2em;
   background: #a50613;
+  margin-bottom: .5em;
+  padding: 2px;
+  @include border-radius(2%);
 }
 
-div.navi-small {
+.navi-small {
   display: none;
 }
-div.navi-medium-up {
+.navi-medium-up {
   nav.menu {
     width: 960px;
     margin: .75em 0 0;
@@ -23,6 +26,7 @@ div.navi-medium-up {
       a {
         transition:all linear 0.15s;
         background: #a50613;
+        @include border-radius(2%);
         color: white;
         padding: .25em .5em;
         font-size: 1.125em;
@@ -33,15 +37,23 @@ div.navi-medium-up {
       }
       ul.sub-menu {
           width: 160%;
+          padding: 5px 0;
           position: absolute;
           top: 100%;
           left: 0px;
           z-index: -1;
           opacity: 0;
           transition:opacity linear 0.15s;
-          background: white;
+          background: #a50613;
           li {
-            margin: 0.25em 0;
+            margin: 0.5em 0;
+            a {
+              padding: 4px 8px;
+              display: block;
+            }
+            a:hover {
+              background: black;
+            }
           }
       }
     }
@@ -60,12 +72,33 @@ div.navi-medium-up {
     }
   }
 }
+.menu > ul > li:hover > a,
+section.home-icon:hover {
+    background: black;
+}
 
 @media screen and (max-width: 600px) {
-  div.navi-small {
+  a.navi-small {
+    background-color: #f9f9f9;
+  }
+  .navi-small {
     display: block;
   }
-  div.navi-medium-up {
+  .navi-medium-up {
     display: none;
+  }
+  nav.nav-collapse {
+    position: absolute;
+    background: #a50613;
+    li {
+      background-color: #a50613;
+      ul.sub-menu {
+        margin-left: 2em;
+      }
+      a {
+        color: white;
+
+      }
+    }
   }
 }

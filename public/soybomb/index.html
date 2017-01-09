@@ -19,8 +19,8 @@
 		<link rel="stylesheet" type="text/css" href="http://rutgerkroon.nl/css/default.css" />
 		<link rel="stylesheet" type="text/css" href="http://rutgerkroon.nl/css/component.css" />
 		<link rel="stylesheet" type="text/css" href="http://rutgerkroon.nl/css/style.css" />
-		<script src="http://rutgerkroon.nl/js/responsive-nav.js"></script>
 		<script src="http://rutgerkroon.nl/js/modernizr.custom.js"></script>
+		<script src="http://rutgerkroon.nl/js/responsive-nav.js"></script>
 
 	
 <script>
@@ -38,15 +38,28 @@ ga('send', 'pageview');
     <div class="container">
       <div class="navi">
   <section class="home-icon">
-    <a href="../"><img src="../images/home_32.png" alt="" /></a>
+    <a class="navi-medium-up" href="../"><img src="../images/home_32.png" alt="" /></a>
+    <a class="navi-small" href="../"><img src="../images/home_32_black.png" alt="" /></a>
   </section>
   <div class="navi-small">
     <nav class="nav-collapse">
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="../websites">Websites</a></li>
+        <li><a href="../toneel">Toneel</a>
+          <ul class="sub-menu">
+            <li><a href="../recent">Recent</a></li>
+            <li><a href="../soybomb">SoyBomb</a></li>
+            <li><a href="../monk">Monk</a></li>
+          </ul>
+        </li>
+        <li><a href="../arendskroon">Arendskroon</a>
+          <ul class="sub-menu">
+            <li><a href="../rut-en-peet">Rut &amp; Peet</a></li>
+            <li><a href="../vortibach">Vortibach</a></li>
+            <li><a href="../kbouters">K-bouters</a></li>
+          </ul>
+        </li>
+        <li><a href="../over">Over</a></li>
       </ul>
     </nav>
   </div>
@@ -69,6 +82,7 @@ ga('send', 'pageview');
             <li><a href="../kbouters">K-bouters</a></li>
           </ul>
         </li>
+
         <li><a href="../over">Over</a></li>
       </ul>
     </nav>
@@ -121,9 +135,23 @@ ga('send', 'pageview');
   </li>
   
   <li>
-    <a href="" data-largesrc="/images/full/grotek.jpg" data-title="Grote K" data-description="&lt;p&gt;In Grote K komen drie wat rijpere heren aan het woord. Heren met ondanks dit alles, een bruisend verleden, want stijfkoppige onaangepastheid geeft je toch nog vaak het voordeel van de twijfel. Grote K is een uitermate rustige toneelvoorstelling. Terwijl de podiumkunst zich een zoveelste kleurspoeling aanmeet maken wij even pas op de plaats. Monk veroudert, nu ook actief! Ouderdom blijft tenslotte één van de leukste trucjes die het leven in petto heeft. En het democratische is: het overkomt iedereen.&lt;/p&gt;&lt;p class=&#39;credits&#39;&gt;&lt;strong&gt;Tekst en regie&lt;/strong&gt; Rutger Kroon. &lt;strong&gt;Spel&lt;/strong&gt; Dik Boutkan, Cas Enklaar, Jack Vecht.">
+    <a href="" data-largesrc="/images/full/grotek.jpg" data-title="Grote K" data-description="&lt;p&gt;In Grote K komen drie wat rijpere heren aan het woord. Heren met ondanks dit alles, een bruisend verleden, want stijfkoppige onaangepastheid geeft je toch nog vaak het voordeel van de twijfel. Grote K is een uitermate rustige toneelvoorstelling. Terwijl de podiumkunst zich een zoveelste kleurspoeling aanmeet maken wij even pas op de plaats. Monk veroudert, nu ook actief! Ouderdom blijft tenslotte één van de leukste trucjes die het leven in petto heeft. En het democratische is: het overkomt iedereen.&lt;/p&gt;&lt;p class=&#39;credits&#39;&gt;&lt;strong&gt;Tekst en regie&lt;/strong&gt; Rutger Kroon. &lt;strong&gt;Spel&lt;/strong&gt; Dik Boutkan, Cas Enklaar, Jack Vecht. &lt;strong&gt;Fotografie&lt;/strong&gt; Sanne Peper.">
       <img src="../images/thumbs/grotek.jpg" alt="Grote K/ Kerst met John, Stef en Wim"/>
       <section class="caption">Grote K/ Kerst met John, Stef en Wim</section>
+    </a>
+  </li>
+  
+  <li>
+    <a href="" data-largesrc="/images/full/beingwilde.jpg" data-title="The Importance of Being Wilde" data-description="&lt;p&gt;Een ‘aanklucht’ tegen homofobie. Aan de hand van de werken &amp; het leven van Oscar Wilde en de huidige maatschappij vraagt het collectief van theatermakers met Jilesen &amp; Jagdewsing zich af: man, mens, homo, top, bottom, links, rechts, gay-for-pay, God, haat, liefde?&lt;/p&gt;">
+      <img src="../images/thumbs/beingwilde.jpg" alt="The Importance of Being Wilde - MGA"/>
+      <section class="caption">The Importance of Being Wilde - MGA</section>
+    </a>
+  </li>
+  
+  <li>
+    <a href="" data-largesrc="/images/full/omg.jpg" data-title="Oh My God!" data-description="&lt;p&gt;&#39;Oh My God&#39; is een muzikaal reli-drama over het gevoelige onderwerp geloof met een hoge dosis zelfspot, hemelse hymnen en opzwepende live-muziek!&lt;/p&gt;">
+      <img src="../images/thumbs/omg.jpg" alt="Oh My God! - MGA"/>
+      <section class="caption">Oh My God! - MGA</section>
     </a>
   </li>
   
@@ -569,9 +597,11 @@ ga('send', 'pageview');
 				Grid.init();
 			});
 		</script>
-		
 
 		<script>
-  var nav = responsiveNav(".nav-collapse", {label: "<img src='../images/layout4_32.png' />"});
+	var nav = responsiveNav(".nav-collapse", {
+		label: "<img src='../images/layout4_32.png' />"
+	});
 </script>
+
   </body>

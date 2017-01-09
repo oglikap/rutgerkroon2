@@ -5,21 +5,23 @@ header.recent,
 header.arendskroon,
 header.vortibach,
 header.rut,
-header.websites {
+header.websites,
+header.over,
+header.k-bouters {
   background-image: url(/images/soybomb/header-large.jpg);
   background-repeat: no-repeat;
   padding-bottom: 10em;
   background-attachment: fixed;
   h1 {
-//    color: #cb542a;
-//    text-shadow: 0 0 3px white;
   color: white;
   }
 }
 header.arendskroon h1,
 header.vortibach h1,
 header.rut h1,
-header.websites h1 {
+header.websites h1,
+header.over h1,
+header.k-bouters h1 {
   color: black;
   text-shadow: 2px 2px 1px white;
 }
@@ -45,6 +47,16 @@ header.rut {
 }
 header.websites {
   background-image: url(/images/websites/header-large.jpg);
+}
+header.k-bouters {
+  background-image: url(/images/kbouters/header-large.jpg);
+}
+header.over {
+  background-image: url(/images/over/header-large.jpg);
+  background-position: 50% 10%;
+  background-size: 98%;
+  padding-bottom: 7em;
+  opacity: 0.8;
 }
 .container > header {
   max-width: 1650px;
@@ -106,7 +118,8 @@ MEDIA QUERIES */
   header.soybomb,
   header.monk,
   header.rut,
-  header.websites {
+  header.websites,
+  header.home {
     background-image: url(/images/arendskroon/header-small.jpg);
     background-position: top;
     background-size: inherit;
@@ -130,6 +143,7 @@ MEDIA QUERIES */
   header.websites {
     background-image: url(/images/websites/header-small.jpg);
   }
+
   .small {
     display: block;
   }

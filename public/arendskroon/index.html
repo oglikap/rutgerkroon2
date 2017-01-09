@@ -19,8 +19,8 @@
 		<link rel="stylesheet" type="text/css" href="http://rutgerkroon.nl/css/default.css" />
 		<link rel="stylesheet" type="text/css" href="http://rutgerkroon.nl/css/component.css" />
 		<link rel="stylesheet" type="text/css" href="http://rutgerkroon.nl/css/style.css" />
-		<script src="http://rutgerkroon.nl/js/responsive-nav.js"></script>
 		<script src="http://rutgerkroon.nl/js/modernizr.custom.js"></script>
+		<script src="http://rutgerkroon.nl/js/responsive-nav.js"></script>
 
 	
 <script>
@@ -38,15 +38,28 @@ ga('send', 'pageview');
     <div class="container">
       <div class="navi">
   <section class="home-icon">
-    <a href="../"><img src="../images/home_32.png" alt="" /></a>
+    <a class="navi-medium-up" href="../"><img src="../images/home_32.png" alt="" /></a>
+    <a class="navi-small" href="../"><img src="../images/home_32_black.png" alt="" /></a>
   </section>
   <div class="navi-small">
     <nav class="nav-collapse">
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="../websites">Websites</a></li>
+        <li><a href="../toneel">Toneel</a>
+          <ul class="sub-menu">
+            <li><a href="../recent">Recent</a></li>
+            <li><a href="../soybomb">SoyBomb</a></li>
+            <li><a href="../monk">Monk</a></li>
+          </ul>
+        </li>
+        <li><a href="../arendskroon">Arendskroon</a>
+          <ul class="sub-menu">
+            <li><a href="../rut-en-peet">Rut &amp; Peet</a></li>
+            <li><a href="../vortibach">Vortibach</a></li>
+            <li><a href="../kbouters">K-bouters</a></li>
+          </ul>
+        </li>
+        <li><a href="../over">Over</a></li>
       </ul>
     </nav>
   </div>
@@ -69,6 +82,7 @@ ga('send', 'pageview');
             <li><a href="../kbouters">K-bouters</a></li>
           </ul>
         </li>
+
         <li><a href="../over">Over</a></li>
       </ul>
     </nav>
@@ -99,6 +113,13 @@ Vrij snel hierna ontstond het idee van een strip over twee fatsoensraggende buur
     <a href="../rut-en-peet" data-largesrc="/images/full/rutenpeet.jpg" data-title="Rut &amp; Peet" data-description="Arendskroon presenteert de nieuwe comic Rut en Peet! Rut en Peet zijn gewone jongens met hart voor de wijk en een gevoelige inborst. Vanzelfsprekendheden als mijn en dijn, fatsoen, respect, een beter milieu begint bij jezelf en algemene omgangsvormen zijn voor hen gesneden koek. Helaas geldt dit niet voor iedereen... Een iets aangedikt autobiografisch relaas over twee buren die toezicht houden op de fatsoensnormen in­ de wijk!">
       <img src="../images/thumbs/rutenpeet.jpg" alt="Rut &amp; Peet"/>
       <section class="caption">Rut &amp; Peet</section>
+    </a>
+  </li>
+  
+  <li>
+    <a href="../kbouters" data-largesrc="/images/full/kbouters.jpg" data-title="K-bouters" data-description="Pakweg 1500 jaar geleden verlaat een konvooi van ruimteschepen - in een ons onbekend quadrant van het universum - de planeet ]:()²a.">
+      <img src="../images/thumbs/kbouters.jpg" alt="K-bouters"/>
+      <section class="caption">K-bouters</section>
     </a>
   </li>
   
@@ -542,9 +563,11 @@ Vrij snel hierna ontstond het idee van een strip over twee fatsoensraggende buur
 				Grid.init();
 			});
 		</script>
-		
 
 		<script>
-  var nav = responsiveNav(".nav-collapse", {label: "<img src='../images/layout4_32.png' />"});
+	var nav = responsiveNav(".nav-collapse", {
+		label: "<img src='../images/layout4_32.png' />"
+	});
 </script>
+
   </body>

@@ -15,6 +15,10 @@
   font-family:'WilliamLucasStd';
   src: url('/fonts/2FDF27_4A_0.woff2') format('woff2'), url('fonts/2FDF27_4A_0.woff') format('woff'), url('/fonts/2FDF27_4A_0.ttf') format('truetype');
 }
+@font-face {
+  font-family: 'SchmutzPro-Clogged';
+  src: url('/fonts/2FDF27_3C_0') format('woff2'), url('/fonts/2FDF27_3C_0.woff') format('woff'), url('/fonts/2FDF27_3C_0.ttf') format('truetype'), url('/fonts/2FDF27_3C_0.eot') format('eot');
+}
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;
   -moz-border-radius: $radius;
@@ -54,6 +58,9 @@ h4,
 h5,
 h6 {
   font-family: 'Scooter';
+  letter-spacing: 4px;
+  font-family: 'SchmutzPro-Clogged';
+
   font-weight: lighter;
   color: #777;
 }

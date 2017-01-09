@@ -1,32 +1,85 @@
-/*h1.page-title-home {
-//  font-family: 'WilliamLucasStd';
-  margin: 1.5em auto;
+body.home {
   text-align: center;
-//  border: 3px solid;
-  width: 75%;
-  background-color: red;
-  color: white;
-  @include transform(rotate(2deg));
-}
-body.home .og-grid li {
-//  width: 300px;
-//  margin: 1em auto;
-  div#main {
-    max-width: 960px;
-    margin: auto;
+  h5 {
+    letter-spacing: 4px;
+    color: #a50613;
+    font-size: 2em;
+    font-family: 'SchmutzPro-Clogged';
   }
 }
+section.home-title {
+    position: relative;
+    display: inline-block;
+    width: 85%;
+    margin: 1em auto 0;
+    h1 {
+      font-family: 'SchmutzPro-Clogged';
+      letter-spacing: 8px;
+      font-weight: lighter;
+      color: #777;
+      text-align: center;
+      font-size: 5.5em;
+      width: 70%;
+      float: left;
+    }
 
-@media screen and (max-width: 600px) {
-  h1.page-title-home {
-    font-size: 2.5em;
-  }
-  body.home .og-grid li {
-    width: 200px;
-    height: 300px;
-    overflow: hidden;
-    margin-bottom: 0;
-    margin-top: 0;
+    img.home-img {
+      float: right;
+      margin-right: 2em;
+    }
+}
+ul.common-links {
+  @include flexbox;
+  @include flex-wrap(wrap);
+  @include justify-content(center);
+  li.common-link {
+    @include align-items(flex-end);
+    @include justify-content(center);
+    @include flexbox;
+    margin: 0 0.5em;
+    list-style: none;
+    width: 10vw;
+    height: 10vw;
+    background-image: url(/images/thumbs/recent.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    a {
+      background: white;
+//      color: white;
+//      padding: 0.5em;
+      @include border-radius(1%);
+    }
+    a:hover {
+      box-shadow: 1px 1px 3px #777;
+    }
   }
 }
-*/
+ul.common-links li.common-link.soybomb {
+  background-image: url(/images/thumbs/soybomb.jpg);
+}
+ul.common-links li.common-link.monk {
+  background-image: url(/images/thumbs/monk.jpg);
+}
+ul.common-links li.common-link.rutpeet {
+  background-image: url(/images/thumbs/rutpeet.jpg);
+}
+ul.common-links li.common-link.vortibach {
+  background-image: url(/images/thumbs/vortibach.jpg);
+}
+ul.common-links li.common-link.kbouters {
+  background-image: url(/images/thumbs/kbouters.jpg);
+}
+.caption-small {
+  margin-top: 2em;
+}
+@media screen and (max-width: 1024px) {
+  section.home-title {
+    width: 95%;
+    h1 {
+      width: 90%;
+    }
+    img.home-img {
+      margin-right: 0;
+    }
+  }
+}

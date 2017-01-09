@@ -6,8 +6,44 @@
     <description>Recent content on home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Dec 2016 16:27:12 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 09 Jan 2017 16:04:37 +0100</lastBuildDate>
     <atom:link href="http://rutgerkroon.nl/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>postzegels</title>
+      <link>http://rutgerkroon.nl/post/postzegel/</link>
+      <pubDate>Mon, 09 Jan 2017 16:04:37 +0100</pubDate>
+      
+      <guid>http://rutgerkroon.nl/post/postzegel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>k-bouters</title>
+      <link>http://rutgerkroon.nl/kbouters/</link>
+      <pubDate>Sat, 07 Jan 2017 23:50:04 +0100</pubDate>
+      
+      <guid>http://rutgerkroon.nl/kbouters/</guid>
+      <description>
+
+&lt;h5 id=&#34;smurfkillers-zombiesmurfen-tuink-bouters&#34;&gt;Smurfkillers, zombiesmurfen &amp;amp; tuink-bouters&lt;/h5&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>over</title>
+      <link>http://rutgerkroon.nl/over/</link>
+      <pubDate>Wed, 04 Jan 2017 16:14:55 +0100</pubDate>
+      
+      <guid>http://rutgerkroon.nl/over/</guid>
+      <description>
+
+&lt;h5 id=&#34;best-wel-leuk&#34;&gt;Best wel leuk!&lt;/h5&gt;
+
+&lt;p&gt;Is het eerste wat me te binnen schiet als ik een pagina moet volschrijven over mezelf.
+&lt;img src=&#34;./images/soybomb/noord-small.jpg&#34; alt=&#34;Foto Sanne Peper&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>nieuwe website</title>
@@ -35,7 +71,36 @@
       
       <guid>http://rutgerkroon.nl/vortibach/</guid>
       <description>&lt;p&gt;In 2013 startten Peter Arends en Rutger Kroon het project Vortibach; een beeldnovelle over de gelijknamige, permanent aan lager wal verblijvende inspecteur.
-In een hallucinante &amp;lsquo;nieuwe&amp;rsquo; wereld, geregeerd door verzekeringsmaatschap­pijen beleeft hij zijn in eerste instantie weinig opzienbare avonturen. Dit verandert wanneer zijn oud-collega, de gevallen Engel der Wrake - codenaam Brilsmurf - opnieuw zijn opwachting maakt&amp;hellip; Kroon leverde het scenario en Arends leefde zich erop uit. De beide buurmannen verenigden zich in het label Arendskroon.&lt;/p&gt;
+In een hallucinante &amp;lsquo;nieuwe&amp;rsquo; wereld, geregeerd door verzekeringsmaatschap­pijen beleeft hij zijn in eerste instantie weinig opzienbare avonturen.&lt;/p&gt;
+
+&lt;p&gt;Dit verandert wanneer zijn oud-collega, de gevallen Engel der Wrake - codenaam Brilsmurf - opnieuw zijn opwachting maakt&amp;hellip; Kroon leverde het scenario en Arends leefde zich erop uit. De beide buurmannen verenigden zich in het label Arendskroon.&lt;/p&gt;
+
+&lt;ul id=&#34;og-grid&#34; class=&#34;og-grid&#34;&gt;
+  &lt;p&gt;Bekijk hier de pilot online. Vergeet het voorwoord van dr. Arend niet alsmede de prachtige postzegel- en afficheserie!&lt;/p&gt;
+  
+  &lt;li&gt;
+    &lt;a href=&#34;http://peter-arends.nl&#34; data-largesrc=&#34;/images/full/voorwoord.jpg&#34; data-title=&#34;Voorwoord&#34; data-description=&#34;Bekijk hier het voorwoord van Dr. Arends, een belezen en erudiet creatuur, geprezen en gevreesd om zijn scherp vorsende blik!&#34;&gt;
+      &lt;img src=&#34;./images/thumbs/voorwoord.jpg&#34; alt=&#34;Voorwoord dr. Arends&#34;/&gt;
+      &lt;section class=&#34;caption&#34;&gt;Voorwoord dr. Arends&lt;/section&gt;
+    &lt;/a&gt;
+  &lt;/li&gt;
+  
+  &lt;li&gt;
+    &lt;a href=&#34;http://peter-arends.nl&#34; data-largesrc=&#34;/images/full/pilot.jpg&#34; data-title=&#34;Pilot&#34; data-description=&#34;Bekijk hier de pilot! (U wordt omgeleid naar de website van Peter Arends)&#34;&gt;
+      &lt;img src=&#34;./images/thumbs/pilot.jpg&#34; alt=&#34;Bekijk de pilot!&#34;/&gt;
+      &lt;section class=&#34;caption&#34;&gt;Bekijk de pilot!&lt;/section&gt;
+    &lt;/a&gt;
+  &lt;/li&gt;
+  
+  &lt;li&gt;
+    &lt;a href=&#34;./post/postzegel&#34; data-largesrc=&#34;/images/full/postzegels.jpg&#34; data-title=&#34;Voor de filatelist&#34; data-description=&#34;&#34;&gt;
+      &lt;img src=&#34;./images/thumbs/postzegels.jpg&#34; alt=&#34;Voor de filatelist&#34;/&gt;
+      &lt;section class=&#34;caption&#34;&gt;Voor de filatelist&lt;/section&gt;
+    &lt;/a&gt;
+  &lt;/li&gt;
+  
+&lt;/ul&gt;
+
 </description>
     </item>
     
@@ -63,6 +128,13 @@ Vrij snel hierna ontstond het idee van een strip over twee fatsoensraggende buur
     &lt;/a&gt;
   &lt;/li&gt;
   
+  &lt;li&gt;
+    &lt;a href=&#34;./kbouters&#34; data-largesrc=&#34;/images/full/kbouters.jpg&#34; data-title=&#34;K-bouters&#34; data-description=&#34;Pakweg 1500 jaar geleden verlaat een konvooi van ruimteschepen - in een ons onbekend quadrant van het universum - de planeet ]:()²a.&#34;&gt;
+      &lt;img src=&#34;./images/thumbs/kbouters.jpg&#34; alt=&#34;K-bouters&#34;/&gt;
+      &lt;section class=&#34;caption&#34;&gt;K-bouters&lt;/section&gt;
+    &lt;/a&gt;
+  &lt;/li&gt;
+  
 &lt;/ul&gt;
 &lt;/p&gt;
 </description>
@@ -87,6 +159,7 @@ Vrij snel hierna ontstond het idee van een strip over twee fatsoensraggende buur
 
 &lt;h5 id=&#34;2013&#34;&gt;2013 - &amp;hellip;&lt;/h5&gt;
 
+&lt;p&gt;Bij Boy Jonkergouw (Goed is Goed) ontwikkelen we momenteel het script voor de productie &lt;strong&gt;Goeroe&lt;/strong&gt;. Deze gaat medio april 2017 in première in de NWE Vorst in Tilburg. Voor Yorick Zwart (De Stokerij) schrijf ik een tekst over Sebrenica. Bij dit gezelschap speel ik ook Pinters &lt;strong&gt;Bedrog&lt;/strong&gt;; met deze prachtige tekst touren we ergens halverwege halverwege tussen nu en dan in huiskamer en theaterzaal.&lt;br /&gt;
 &lt;ul id=&#34;og-grid&#34; class=&#34;og-grid&#34;&gt;
   
   &lt;li&gt;
@@ -118,7 +191,7 @@ Vrij snel hierna ontstond het idee van een strip over twee fatsoensraggende buur
   &lt;/li&gt;
   
 &lt;/ul&gt;
-
+&lt;/p&gt;
 </description>
     </item>
     
@@ -204,9 +277,23 @@ Vrij snel hierna ontstond het idee van een strip over twee fatsoensraggende buur
   &lt;/li&gt;
   
   &lt;li&gt;
-    &lt;a href=&#34;&#34; data-largesrc=&#34;/images/full/grotek.jpg&#34; data-title=&#34;Grote K&#34; data-description=&#34;&amp;lt;p&amp;gt;In Grote K komen drie wat rijpere heren aan het woord. Heren met ondanks dit alles, een bruisend verleden, want stijfkoppige onaangepastheid geeft je toch nog vaak het voordeel van de twijfel. Grote K is een uitermate rustige toneelvoorstelling. Terwijl de podiumkunst zich een zoveelste kleurspoeling aanmeet maken wij even pas op de plaats. Monk veroudert, nu ook actief! Ouderdom blijft tenslotte één van de leukste trucjes die het leven in petto heeft. En het democratische is: het overkomt iedereen.&amp;lt;/p&amp;gt;&amp;lt;p class=&amp;#39;credits&amp;#39;&amp;gt;&amp;lt;strong&amp;gt;Tekst en regie&amp;lt;/strong&amp;gt; Rutger Kroon. &amp;lt;strong&amp;gt;Spel&amp;lt;/strong&amp;gt; Dik Boutkan, Cas Enklaar, Jack Vecht.&#34;&gt;
+    &lt;a href=&#34;&#34; data-largesrc=&#34;/images/full/grotek.jpg&#34; data-title=&#34;Grote K&#34; data-description=&#34;&amp;lt;p&amp;gt;In Grote K komen drie wat rijpere heren aan het woord. Heren met ondanks dit alles, een bruisend verleden, want stijfkoppige onaangepastheid geeft je toch nog vaak het voordeel van de twijfel. Grote K is een uitermate rustige toneelvoorstelling. Terwijl de podiumkunst zich een zoveelste kleurspoeling aanmeet maken wij even pas op de plaats. Monk veroudert, nu ook actief! Ouderdom blijft tenslotte één van de leukste trucjes die het leven in petto heeft. En het democratische is: het overkomt iedereen.&amp;lt;/p&amp;gt;&amp;lt;p class=&amp;#39;credits&amp;#39;&amp;gt;&amp;lt;strong&amp;gt;Tekst en regie&amp;lt;/strong&amp;gt; Rutger Kroon. &amp;lt;strong&amp;gt;Spel&amp;lt;/strong&amp;gt; Dik Boutkan, Cas Enklaar, Jack Vecht. &amp;lt;strong&amp;gt;Fotografie&amp;lt;/strong&amp;gt; Sanne Peper.&#34;&gt;
       &lt;img src=&#34;./images/thumbs/grotek.jpg&#34; alt=&#34;Grote K/ Kerst met John, Stef en Wim&#34;/&gt;
       &lt;section class=&#34;caption&#34;&gt;Grote K/ Kerst met John, Stef en Wim&lt;/section&gt;
+    &lt;/a&gt;
+  &lt;/li&gt;
+  
+  &lt;li&gt;
+    &lt;a href=&#34;&#34; data-largesrc=&#34;/images/full/beingwilde.jpg&#34; data-title=&#34;The Importance of Being Wilde&#34; data-description=&#34;&amp;lt;p&amp;gt;Een ‘aanklucht’ tegen homofobie. Aan de hand van de werken &amp;amp; het leven van Oscar Wilde en de huidige maatschappij vraagt het collectief van theatermakers met Jilesen &amp;amp; Jagdewsing zich af: man, mens, homo, top, bottom, links, rechts, gay-for-pay, God, haat, liefde?&amp;lt;/p&amp;gt;&#34;&gt;
+      &lt;img src=&#34;./images/thumbs/beingwilde.jpg&#34; alt=&#34;The Importance of Being Wilde - MGA&#34;/&gt;
+      &lt;section class=&#34;caption&#34;&gt;The Importance of Being Wilde - MGA&lt;/section&gt;
+    &lt;/a&gt;
+  &lt;/li&gt;
+  
+  &lt;li&gt;
+    &lt;a href=&#34;&#34; data-largesrc=&#34;/images/full/omg.jpg&#34; data-title=&#34;Oh My God!&#34; data-description=&#34;&amp;lt;p&amp;gt;&amp;#39;Oh My God&amp;#39; is een muzikaal reli-drama over het gevoelige onderwerp geloof met een hoge dosis zelfspot, hemelse hymnen en opzwepende live-muziek!&amp;lt;/p&amp;gt;&#34;&gt;
+      &lt;img src=&#34;./images/thumbs/omg.jpg&#34; alt=&#34;Oh My God! - MGA&#34;/&gt;
+      &lt;section class=&#34;caption&#34;&gt;Oh My God! - MGA&lt;/section&gt;
     &lt;/a&gt;
   &lt;/li&gt;
   
@@ -287,6 +374,29 @@ Vrij snel hierna ontstond het idee van een strip over twee fatsoensraggende buur
   
 &lt;/ul&gt;
 &lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://rutgerkroon.nl/post/post/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://rutgerkroon.nl/post/post/</guid>
+      <description>partial &#34;header.html&#34; . }}
+
+&lt;section id=&#34;main&#34;&gt;
+  &lt;div&gt;
+   &lt;h1 id=&#34;title&#34;&gt;{{ .Title }}&lt;/h1&gt;
+        &lt;ul id=&#34;list&#34;&gt;
+            {{ range .Data.Pages }}
+                {{ .Render &#34;li&#34;}}
+            {{ end }}
+        &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+
+{{ partial &#34;footer.html&#34; . }}
 </description>
     </item>
     

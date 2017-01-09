@@ -3,7 +3,22 @@
   
   <url>
     <loc>http://rutgerkroon.nl/</loc>
-    <lastmod>2016-12-28T16:27:12+01:00</lastmod>
+    <lastmod>2017-01-09T16:04:37+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://rutgerkroon.nl/post/postzegel/</loc>
+    <lastmod>2017-01-09T16:04:37+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://rutgerkroon.nl/kbouters/</loc>
+    <lastmod>2017-01-07T23:50:04+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://rutgerkroon.nl/over/</loc>
+    <lastmod>2017-01-04T16:14:55+01:00</lastmod>
   </url>
   
   <url>
@@ -54,6 +69,10 @@
   <url>
     <loc>http://rutgerkroon.nl/toneel/</loc>
     <lastmod>2016-12-21T12:59:13+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://rutgerkroon.nl/post/post/</loc>
   </url>
   
 </urlset>

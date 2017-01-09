@@ -19,8 +19,8 @@
 		<link rel="stylesheet" type="text/css" href="http://rutgerkroon.nl/css/default.css" />
 		<link rel="stylesheet" type="text/css" href="http://rutgerkroon.nl/css/component.css" />
 		<link rel="stylesheet" type="text/css" href="http://rutgerkroon.nl/css/style.css" />
-		<script src="http://rutgerkroon.nl/js/responsive-nav.js"></script>
 		<script src="http://rutgerkroon.nl/js/modernizr.custom.js"></script>
+		<script src="http://rutgerkroon.nl/js/responsive-nav.js"></script>
 
 	
 <script>
@@ -36,53 +36,12 @@ ga('send', 'pageview');
 	</head>
 	<body class="home">
 		<div class="container">
-			<div class="navi">
-  <section class="home-icon">
-    <a href="./"><img src="./images/home_32.png" alt="" /></a>
-  </section>
-  <div class="navi-small">
-    <nav class="nav-collapse">
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
-  </div>
-
-  <div class="navi-medium-up">
-    <nav class="menu">
-      <ul class="clearfix">
-        <li><a href="./websites">Websites</a></li>
-        <li><a href="./toneel">Toneel <span class="arrow">&#9660;</span></a>
-          <ul class="sub-menu">
-            <li><a href="./recent">Recent</a></li>
-            <li><a href="./soybomb">SoyBomb</a></li>
-            <li><a href="./monk">Monk</a></li>
-          </ul>
-        </li>
-        <li><a href="./arendskroon">Arendskroon <span class="arrow">&#9660;</span></a>
-          <ul class="sub-menu">
-            <li><a href="./rut-en-peet">Rut &amp; Peet</a></li>
-            <li><a href="./vortibach">Vortibach</a></li>
-            <li><a href="./kbouters">K-bouters</a></li>
-          </ul>
-        </li>
-        <li><a href="./over">Over</a></li>
-      </ul>
-    </nav>
-  </div>
-
-</div>
-
-			<header class="clearfix home">
-	<h1 class="page-title">home<span class="dot">.</span></h1>
-
-	<img src="./images/thumbs/home.jpg" alt="" class="header-side-img" />	
-</header>
-
 			<div class="main">
+				<section class="home-title">
+					<h1>Rutger Kroon</h1>
+					<img class="home-img" src="./images/home/tss-transp-small.png" alt="" />
+				</section>
+				<h5>Naar de hoofdpagina's:</h5>
 				<ul id="og-grid" class="og-grid">
 					
 					<li>
@@ -100,19 +59,58 @@ ga('send', 'pageview');
 					</li>
 					
 					<li>
-						<a href="https://github.com/aerohub/hugrid" data-largesrc="images/full/rutenpeet.jpg" data-title="Arendskroon" data-description="A simple grid theme for Hugo. A kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on.">
-							<img src="images/thumbs/rutenpeet.jpg" alt="Arendskroon"/>
+						<a href="./arendskroon" data-largesrc="/images/full/rutenpeet.jpg" data-title="Arendskroon" data-description="Arendskroon is het verbond der buurmannen en een paraplu voor uiteenlopend talent. Arends is beeldend kunstenaar, illustrator, muzikant en grafisch vormgever, Kroon acteur, theatermaker, schrijver en web developer. Tellen wij deze skills bij elkaar op dan daagt aan de einder een bloeiend bedrijf!">
+							<img src="./images/thumbs/rutenpeet.jpg" alt="Arendskroon"/>
 							<section class="caption">Arendskroon</section>
 						</a>
 					</li>
 					
 					<li>
-						<a href="https://github.com/aerohub/hugrid" data-largesrc="images/full/4.png" data-title="Over" data-description="A simple grid theme for Hugo. A kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on.">
-							<img src="images/thumbs/4.png" alt="Hugrid Theme"/>
-							<section class="caption">Hugrid Theme</section>
+						<a href="./over" data-largesrc="images/full/over.jpg" data-title="Over" data-description="Rutger Kroon is web developer, acteur en schrijver, o.a. van De Rookmonologen en deze site. Daarnaast is hij nog wat dingen die vakmatig van minder belang zijn, van vader tot zeiler tot nazismurf­tekenaar.">
+							<img src="./images/thumbs/over.jpg" alt="Over"/>
+							<section class="caption">Over</section>
 						</a>
 					</li>
 					
+				</ul>
+				<h5>Of treedt direct in details:</h5>
+				<ul class="common-links">
+					<a href="./recent">
+						<li class="common-link"></li>
+							<section class="caption caption-small">
+								Recent
+							</section>
+					</a>
+					<a href="./soybomb">
+						<li class="common-link soybomb"></li>
+						<section class="caption caption-small">
+							SoyBomb
+						</section>
+					</a>
+					<a href="./monk">
+						<li class="common-link monk"></li>
+						<section class="caption caption-small">
+							Monk
+						</section>
+					</a>
+					<a href="./rut-en-peet">
+						<li class="common-link rutpeet"></li>
+						<section class="caption caption-small">
+							Rut &amp; Peet
+						</section>
+					</a>
+					<a href="./vortibach">
+						<li class="common-link vortibach"></li>
+						<section class="caption caption-small">
+							Vortibach
+						</section>
+					</a>
+					<a href="./kbouters">
+						<li class="common-link kbouters"></li>
+						<section class="caption caption-small">
+							K-bouters
+						</section>
+					</a>
 				</ul>
 			</div>
 			<footer class="footer">
@@ -550,7 +548,6 @@ ga('send', 'pageview');
 				Grid.init();
 			});
 		</script>
-		
 
 	</body>
 </html>

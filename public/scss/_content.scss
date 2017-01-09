@@ -17,6 +17,9 @@ article#content {
   h5 {
     color: #a50613;
   }
+  p {
+    font-size: 105%;
+  }
   .og-details p {
     width: 100%;
   }
@@ -24,55 +27,59 @@ article#content {
 body.recent article#content h5 {
   color: #a50613;
 }
+figure {
+  margin: 0.5em auto;
+  img {
+    display: block;
+    margin: auto;
+  }
+}
 figcaption {
-  background-color: black;
-  color: white;
+//  border: 1px solid;
   padding: 0 0.25em;
-  @include transform(rotate(-2deg));
-  margin-top: -1em;
+  margin-top: .5em auto;
+  width: 40%;
+  margin: auto;
+  line-height: 1.25em;
+  font-size: 80%;
 }
 .og-grid li {
-  margin-top: 2em;
-}
-.og-grid li > a,
-.og-grid li > a img {
-//  font-size: 80%;
+  margin: .675em .375em 3em .375em;
 }
 section.caption {
-//  background-color: black;
-//  color: white;
   padding: 0.25em 0;
   font-size: 80%;
-  margin: 0.75em auto;
+  margin: .5em auto 0;
   width: 75%;
-//  @include transform(rotate(-1deg));
-  border: 1px solid lightgrey;
+  background-color: #f9f9f9;
+  border: 1px solid #c3c3c3;
   @include border-radius(5%);
+}
+.og-details {
+  h3 {
+    font-size: 2em;
+    color: #a50613;
+  }
+  p {
+    color: #555;
+    font-size: 1em;
+    background: #f9f9f9;
+    line-height: 1.25em;
+    padding: 2%;
+
+  }
 }
 body.soybomb .og-details,
 body.monk .og-details {
   a {
     display: none;
   }
-  p {
-    background: white;
-    color: #555;
-    margin: 0.25em 0;
-    padding: 0.25em 1em;
-    width: 100%;
-  }
-  h3 {
-    font-size: 1.25em;
-    background: white;
-    color: #cb542a;
-    padding: 0 1em;
-    text-align: center;
-    width: 75%;
-  }
 }
+/*
+
 .og-grid li {
   margin-bottom: 1em;
-}
+}*/
 
 /*****************************************
 ***********MEDIA QUERIES*/

@@ -19,8 +19,8 @@
 		<link rel="stylesheet" type="text/css" href="http://rutgerkroon.nl/css/default.css" />
 		<link rel="stylesheet" type="text/css" href="http://rutgerkroon.nl/css/component.css" />
 		<link rel="stylesheet" type="text/css" href="http://rutgerkroon.nl/css/style.css" />
-		<script src="http://rutgerkroon.nl/js/responsive-nav.js"></script>
 		<script src="http://rutgerkroon.nl/js/modernizr.custom.js"></script>
+		<script src="http://rutgerkroon.nl/js/responsive-nav.js"></script>
 
 	
 <script>
@@ -38,15 +38,28 @@ ga('send', 'pageview');
     <div class="container">
       <div class="navi">
   <section class="home-icon">
-    <a href="../"><img src="../images/home_32.png" alt="" /></a>
+    <a class="navi-medium-up" href="../"><img src="../images/home_32.png" alt="" /></a>
+    <a class="navi-small" href="../"><img src="../images/home_32_black.png" alt="" /></a>
   </section>
   <div class="navi-small">
     <nav class="nav-collapse">
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="../websites">Websites</a></li>
+        <li><a href="../toneel">Toneel</a>
+          <ul class="sub-menu">
+            <li><a href="../recent">Recent</a></li>
+            <li><a href="../soybomb">SoyBomb</a></li>
+            <li><a href="../monk">Monk</a></li>
+          </ul>
+        </li>
+        <li><a href="../arendskroon">Arendskroon</a>
+          <ul class="sub-menu">
+            <li><a href="../rut-en-peet">Rut &amp; Peet</a></li>
+            <li><a href="../vortibach">Vortibach</a></li>
+            <li><a href="../kbouters">K-bouters</a></li>
+          </ul>
+        </li>
+        <li><a href="../over">Over</a></li>
       </ul>
     </nav>
   </div>
@@ -69,6 +82,7 @@ ga('send', 'pageview');
             <li><a href="../kbouters">K-bouters</a></li>
           </ul>
         </li>
+
         <li><a href="../over">Over</a></li>
       </ul>
     </nav>
@@ -85,7 +99,36 @@ ga('send', 'pageview');
       <div id="main">
         <article id="content">
           <p>In 2013 startten Peter Arends en Rutger Kroon het project Vortibach; een beeldnovelle over de gelijknamige, permanent aan lager wal verblijvende inspecteur.
-In een hallucinante &lsquo;nieuwe&rsquo; wereld, geregeerd door verzekeringsmaatschap­pijen beleeft hij zijn in eerste instantie weinig opzienbare avonturen. Dit verandert wanneer zijn oud-collega, de gevallen Engel der Wrake - codenaam Brilsmurf - opnieuw zijn opwachting maakt&hellip; Kroon leverde het scenario en Arends leefde zich erop uit. De beide buurmannen verenigden zich in het label Arendskroon.</p>
+In een hallucinante &lsquo;nieuwe&rsquo; wereld, geregeerd door verzekeringsmaatschap­pijen beleeft hij zijn in eerste instantie weinig opzienbare avonturen.</p>
+
+<p>Dit verandert wanneer zijn oud-collega, de gevallen Engel der Wrake - codenaam Brilsmurf - opnieuw zijn opwachting maakt&hellip; Kroon leverde het scenario en Arends leefde zich erop uit. De beide buurmannen verenigden zich in het label Arendskroon.</p>
+
+<ul id="og-grid" class="og-grid">
+  <p>Bekijk hier de pilot online. Vergeet het voorwoord van dr. Arend niet alsmede de prachtige postzegel- en afficheserie!</p>
+  
+  <li>
+    <a href="http://peter-arends.nl" data-largesrc="/images/full/voorwoord.jpg" data-title="Voorwoord" data-description="Bekijk hier het voorwoord van Dr. Arends, een belezen en erudiet creatuur, geprezen en gevreesd om zijn scherp vorsende blik!">
+      <img src="../images/thumbs/voorwoord.jpg" alt="Voorwoord dr. Arends"/>
+      <section class="caption">Voorwoord dr. Arends</section>
+    </a>
+  </li>
+  
+  <li>
+    <a href="http://peter-arends.nl" data-largesrc="/images/full/pilot.jpg" data-title="Pilot" data-description="Bekijk hier de pilot! (U wordt omgeleid naar de website van Peter Arends)">
+      <img src="../images/thumbs/pilot.jpg" alt="Bekijk de pilot!"/>
+      <section class="caption">Bekijk de pilot!</section>
+    </a>
+  </li>
+  
+  <li>
+    <a href="../post/postzegel" data-largesrc="/images/full/postzegels.jpg" data-title="Voor de filatelist" data-description="">
+      <img src="../images/thumbs/postzegels.jpg" alt="Voor de filatelist"/>
+      <section class="caption">Voor de filatelist</section>
+    </a>
+  </li>
+  
+</ul>
+
 
         </article>
       </div>
@@ -524,9 +567,11 @@ In een hallucinante &lsquo;nieuwe&rsquo; wereld, geregeerd door verzekeringsmaat
 				Grid.init();
 			});
 		</script>
-		
 
 		<script>
-  var nav = responsiveNav(".nav-collapse", {label: "<img src='../images/layout4_32.png' />"});
+	var nav = responsiveNav(".nav-collapse", {
+		label: "<img src='../images/layout4_32.png' />"
+	});
 </script>
+
   </body>

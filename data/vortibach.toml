@@ -1,0 +1,21 @@
+[[items]]
+title = "Voorwoord"
+image = "/images/full/voorwoord.jpg"
+thumb = "/images/thumbs/voorwoord.jpg"
+alt = "Voorwoord dr. Arends"
+description = "Bekijk hier het voorwoord van Dr. Arends, een belezen en erudiet creatuur, geprezen en gevreesd om zijn scherp vorsende blik!"
+url = "http://peter-arends.nl"
+[[items]]
+title = "Pilot"
+image = "/images/full/pilot.jpg"
+thumb = "/images/thumbs/pilot.jpg"
+alt = "Bekijk de pilot!"
+description = "Bekijk hier de pilot! (U wordt omgeleid naar de website van Peter Arends)"
+url = "http://peter-arends.nl"
+[[items]]
+title = "Voor de filatelist"
+image = "/images/full/postzegels.jpg"
+thumb = "/images/thumbs/postzegels.jpg"
+alt = "Voor de filatelist"
+description = ""
+url = "/post/postzegel"

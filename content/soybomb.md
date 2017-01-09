@@ -9,5 +9,3 @@ Van 2009 tot en met 2012 speelde Monk Soybomb, een project over trash en tegencu
 {{<oggrid-soybomb>}}
 
 Verder schreef ik twee teksten voor MGA/Jilesen &amp; Jagdewsing: **The Importance of Being Wilde** (2009) en **Oh, My God!** (2010) en een tekst voor wat oudere acteurs **Grote K** (2009) met Dik Boutkan, Cas Enklaar en Jack Vecht, in 2011 opnieuw uitgebracht als **Kerst met John, Stef en Wim**.
-
-{{<oggrid-mga>}}
